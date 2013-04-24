@@ -24,7 +24,7 @@ RMSECV <- function(dataname){
     #Build RMSECV
     RMSECV <- function(a,b) sqrt (mean(a-b)^2)
 
-	# plot data
+	#Show RMSECV
     RMSECVModell <- RMSECV(x,y)
     RMSECVModell
 }
