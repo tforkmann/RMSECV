@@ -1,18 +1,16 @@
-#' RMSECV - Root-mean-squared errof of cross-validation
+#' RMSECV - Root-mean-squared error of cross-validation
 #'
 #' first script in R
 #' 
-#' @param x cector of measured distance values
-#' @param c Vector of measured concentration values
-#' @param sd cector of absolute uncertainty in concentration
-#' @param startdata required dataset
-#' @param detrenddata_constant Constant Detrends Transformation of startdata(c)
-#' @param detrenddata_linear Linear Detrends Transformation of startdata(c)
+#' @param x vector
+#' @param y vector
+#' @param data required dataset
+#' @param RMSEC Root-mean-squared error of cross-validation
 #' 
 #' @author Tim Forkmann
 #' @export
 #' @examples
-#' detrends(dataset.csv)
+#' RMSECV(dataset.csv)
 
 RMSECV <- function(dataname){
     
