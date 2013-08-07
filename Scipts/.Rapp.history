@@ -1,0 +1,29 @@
+library(kernlab)
+load(".RData")
+dir <- "/Users/tforkmann/Dropbox/Uni/2_Master of Scienes/4. Semester/Masterarbeit/9_Programmierungen/Github/Kalibration BGA Bitterfeld"
+dir
+setwd("/Users/tforkmann/Dropbox/Uni/2_Master of Scienes/4. Semester/Masterarbeit/9_Programmierungen/Github/Kalibration BGA Bitterfeld")
+dir
+dir()
+setwd("/Users/tforkmann/Dropbox/Uni/2_Master of Scienes/4. Semester/Masterarbeit/9_Programmierungen/Github/Kalibration BGA Bitterfeld/Scripts")
+setwd("/Users/tforkmann/Dropbox/Uni/2_Master of Scienes/4. Semester/Masterarbeit/9_Programmierungen/Github/Kalibration BGA Bitterfeld/Scipts")
+dir()
+run("1_SVM.r")
+1_SVM.r
+"1_SVM.r"
+source(1_SVM.r)
+source("1_SVM.r")
+n <- 150 # number of data points
+n
+p <-2
+sigma <-1
+meanpos <-0
+meanneg <-3
+npos<- round(n/2)
+nneg<-n-npos
+xpos<-matrix(rnorm(nneg*p,mean=meanpos,sd=sigma),npos,p)
+xneg<-matrix(rnorm(nneg*p,mean=meanneg,sd=sigma),npos,p)
+x<-rbind(xpos,xneg)
+y<-matrix(c(rep(1,npos),rep(-1,nneg)))
+plot(x,col=ifelse(y>0,1,2))
+legend("topleft",c('Positive','Negative'),col=seq(2),pch=1,text.col=seq(2))

@@ -1,0 +1,220 @@
+RMSECV <- function(dataname){#
+    #Read Data#
+    data <- read.table(dataname, header=T, sep=",")#
+    #Split into vectors #
+    x <-data$x#
+    y <-data$y#
+#
+    #Build RMSECV#
+    RMSECV <- function(x,y) sqrt (mean(x-y)^2)#
+#
+	# plot data#
+    par(mfrow=c(1,2))#
+	plot(x,y,col="green")#
+    line(RMSCV, col="blue")#
+}
+RMSECV("dataset.csb")
+RMSECV("dataset.csv")
+RMSECV <- function(dataname){#
+    #Read Data#
+    data <- read.table(dataname, header=T, sep=",")#
+    #Split into vectors #
+    x <-data$x#
+    y <-data$y#
+#
+    #Build RMSECV#
+    RMSECV <- function(x,y) sqrt (mean(x-y)^2)#
+#
+	# plot data#
+    par(mfrow=c(2,2))#
+	plot(x,y,col="green")#
+    line(RMSCV, col="blue")#
+}
+RMSECV("dataset.csv")
+RMSECV <- function(dataname){#
+    #Read Data#
+    data <- read.table(dataname, header=T, sep=",")#
+    #Split into vectors #
+    x <-data$x#
+    y <-data$y#
+#
+    #Build RMSECV#
+    RMSECV <- function(x,y) sqrt (mean(x-y)^2)#
+#
+	# plot data#
+    par(mfrow=c(2,2))#
+	plot(x,y,col="green")#
+    plot(RMSCV, col="blue")#
+}
+RMSECV("dataset.csv")
+RMSECV <- function(dataname){#
+    #Read Data#
+    data <- read.table(dataname, header=T, sep=",")#
+    #Split into vectors #
+    x <-data$x#
+    y <-data$y#
+#
+    #Build RMSECV#
+    RMSECV <- function(x,y) sqrt (mean(x-y)^2)#
+#
+	# plot data#
+    par(mfrow=c(2,2))#
+	plot(x,y,col="green")#
+    plot(RMSECV, col="blue")#
+}
+RMSECV("dataset.csv")
+RMSECV <- function(dataname){#
+    #Read Data#
+    data <- read.table(dataname, header=T, sep=",")#
+    #Split into vectors #
+    x <-data$x#
+    y <-data$y#
+#
+    #Build RMSECV#
+    RMSECV <- function(x,y) sqrt (mean(x-y)^2)#
+#
+	# plot data#
+    RMSECV#
+    par(mfrow=c(2,2))#
+	plot(x,y,col="green")#
+    plot(RMSECV,y col="blue")#
+}
+RMSECV <- function(dataname){#
+    #Read Data#
+    data <- read.table(dataname, header=T, sep=",")#
+    #Split into vectors #
+    x <-data$x#
+    y <-data$y#
+#
+    #Build RMSECV#
+    RMSECV <- function(x,y) sqrt (mean(x-y)^2)#
+#
+	# plot data#
+    RMSECV#
+    par(mfrow=c(2,2))#
+	plot(x,y,col="green")#
+    plot(RMSECV,y, col="blue")#
+}
+RMSECV("dataset.csv")
+RMSECV <- function(dataname){#
+    #Read Data#
+    data <- read.table(dataname, header=T, sep=",")#
+    #Split into vectors #
+    x <-data$x#
+    y <-data$y#
+#
+    #Build RMSECV#
+    RMSECV <- function(a,b) sqrt (mean(a-b)^2)#
+#
+	# plot data#
+    RMSECVModell <- RMSECV(x,y)#
+    par(mfrow=c(2,2))#
+	plot(x,y,col="green")#
+    plot(RMSECV,y, col="blue")#
+}
+RMSECV("dataset.csv")
+data <- read.table("dataset.csv", header=T, sep=",")
+x <- data$x
+x
+y <- data$y
+<
+y
+RMSECV <- function(a,b) sqrt (mean(a-b)^2)
+rmsc=RMSECV(x,y)
+rmsc
+plot(rmsc,y, col="blue")
+source("RMSECV")
+source("RMSECV.r")
+RMSECV("dataset.csv")
+loading ("pls")
+library ("pls")
+load packages ("pls")
+install packages ("pls")
+install package ("pls")
+install.packages("pls")
+library ("pls")
+data("yarn")
+data("oliveoil")
+data("gasoline")
+gasTrain <- gasoline[1:50, ]
+gasTest <- gasoline[51:60, ]
+gas1 <- pls(octane, ~ NIR, ncomp=10, data=gasTrain, validation="L00")
+gas1 <- plsr(octane, ~ NIR, ncomp=10, data=gasTrain, validation="L00")
+gas1 <- plsr(octane,~NIR, ncomp=10, data=gasTrain, validation="L00")
+gas1 <- plsr(octane,~NIR, ncomp=10, data=gasTrain, validation="LOO")
+gas1 <- plsr(octane ~NIR, ncomp=10, data=gasTrain, validation="LOO")
+summaey(gas1)
+summary(gas1)
+plot(RMSEP(gas1), legendpos="topright")
+plot(gas1, ncomp=2, asp=1, line=True)
+plot(gas1, ncomp=2, asp=1, line=TRUE)
+plot(gas1, plottype="scores", comps =1:3)
+explvar(gas1)
+plot(gas1, "loadings", comps 1:2, legendpos="topleft", labels="numbers", xlab="nm")
+plot(gas1, "loadings", comps =1:2, legendpos="topleft", labels="numbers", xlab="nm")
+abline(h=0)
+predict(gas1,ncomp=2,newdata=gasTest)
+RMSEP(gas1,newdata=gasTest)
+plot(gas1)
+gas1
+yarn
+plot(yarn)
+plot(yarn, ncomp=2)
+plot(yarn, ncomp=2, asp=1, line=True)
+party <- yarn [1:50, ]
+party <- yarn[1:50, ]
+party <- yarn[1:21, ]
+plot(party, ncomp=2, asp=1, line=TRUE)
+plot(party, ncomp=2)
+party <- yarn[1]
+plot(party, ncomp=2)
+party
+party[1]
+?yarn
+gasoline
+plot(gasoline)
+plot(gasoline, ncomp=2)
+plot(gasoline)
+plot(gasoline,n)
+plot(gasoline,ncomp=10)
+plot(gasoline,10)
+?gasoline
+plot(gasoline[x],gasoline[y])
+plot(gasoline[1],gasoline[2])
+write.table(gasoline, "c:/", sep="\t")
+write.table(gasoline, , sep="\t")
+write.xls(gasoline, "/Users/test.xls")
+library(xlsReadWrite)
+install.packages(xlsReadWrite)
+install.packages("xlsReadWrite")
+write.table(gasoline, "/Users/test.xls", sep="\t")
+write.table(gasoline, "/tforkmann/test.xls", sep="\t")
+write.table(gasoline, "/test.xls", sep="\t")
+write.table(gasoline, "~/test.xls", sep="\t")
+asd <- gasoline[octane]
+asd <- gasoline(octane)
+asd <-gasoline[1]
+asd
+asc <- gasoline[ ,1]
+asc
+asc <- gasoline[1,1]
+asc
+asc <- gasoline[1,2]
+sac
+ASC
+asc
+plot(asc,asd)
+plot(asc,asd, auto, mutti)
+plot(asc,asd)
+plot(asc, asd)
+plot (asc, asd)
+a <- gasoline[1,1]
+b <- gasoline[1,2]
+plot (a,b)
+a <- gasoline["octane"]
+a
+b <- gasoline[,1]
+b
+b <- gasoline[1,]
+b
+plot(b,a)
